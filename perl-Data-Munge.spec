@@ -4,11 +4,11 @@
 #
 Name     : perl-Data-Munge
 Version  : 0.097
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.097.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.097.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libd/libdata-munge-perl/libdata-munge-perl_0.097-1.debian.tar.xz
-Summary  : 'various utility functions'
+Summary  : various utility functions
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Data-Munge-license = %{version}-%{release}
@@ -25,6 +25,7 @@ To install this module, run the following commands:
 Summary: dev components for the perl-Data-Munge package.
 Group: Development
 Provides: perl-Data-Munge-devel = %{version}-%{release}
+Requires: perl-Data-Munge = %{version}-%{release}
 
 %description dev
 dev components for the perl-Data-Munge package.
@@ -43,7 +44,7 @@ license components for the perl-Data-Munge package.
 cd ..
 %setup -q -T -D -n Data-Munge-0.097 -b 1
 mkdir -p deblicense/
-mv %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/Data-Munge-0.097/deblicense/
+cp -r %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/Data-Munge-0.097/deblicense/
 
 %build
 export http_proxy=http://127.0.0.1:9/
