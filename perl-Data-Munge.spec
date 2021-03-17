@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Munge
 Version  : 0.097
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.097.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.097.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libd/libdata-munge-perl/libdata-munge-perl_0.097-1.debian.tar.xz
@@ -104,4 +104,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Data/Munge.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Data/Munge.pm
