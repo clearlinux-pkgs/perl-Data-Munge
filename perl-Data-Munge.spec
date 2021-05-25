@@ -4,7 +4,7 @@
 #
 Name     : perl-Data-Munge
 Version  : 0.097
-Release  : 21
+Release  : 22
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.097.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.097.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libd/libdata-munge-perl/libdata-munge-perl_0.097-1.debian.tar.xz
