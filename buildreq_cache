@@ -1,2 +1,4 @@
-0.097
-perl(Test::Warnings)
+0.10
+perl(Importer)
+perl(Sub::Info)
+perl(Test2::V0)
