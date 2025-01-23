@@ -7,7 +7,7 @@
 #
 Name     : perl-Data-Munge
 Version  : 0.111
-Release  : 32
+Release  : 33
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.111.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MAUKE/Data-Munge-0.111.tar.gz
 Summary  : 'various utility functions'
